@@ -6,6 +6,7 @@
       <li><router-link to="/one">One</router-link></li>
       <li><router-link to="/two">Two</router-link></li>
       <li><router-link to="/three">Three</router-link></li>
+      <li><router-link to="/four-five">Four&Five</router-link></li>
     </ul>
     <router-view></router-view>
   </div>
