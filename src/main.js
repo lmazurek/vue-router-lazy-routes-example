@@ -1,9 +1,10 @@
 import Vue from 'vue'
 import VueRouter from "vue-router";
 import App from './App.vue'
-const One = () => import('./One.js')
-const Two = () => import('./Two.js')
-const Three = () => import('./Three.js')
+
+const One = () => import('./One.vue')
+const Two = () => import('./Two.vue')
+const Three = () => import('./Three.vue')
 
 const Home = {
   template: '<div>home…</div>'
